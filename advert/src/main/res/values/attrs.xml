@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AdvertScrollView">
+        <!-- 列表排列方向 -->
+        <attr name="orientation">
+            <!-- 水平 -->
+            <enum name="horizontal" value="0" />
+            <!-- 垂直 -->
+            <enum name="vertical" value="1" />
+        </attr>
+
+        <!-- 反向布局(滑动方向切换) -->
+        <attr name="reverseLayout" format="boolean" />
+
+        <!-- 切换动画所用的时间 -->
+        <attr name="animationVelocity" format="integer" />
+
+        <!-- 切换item的间隔时间 -->
+        <attr name="switchVelocity" format="integer" />
+
+    </declare-styleable>
+
+
+</resources>
